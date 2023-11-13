@@ -1,0 +1,87 @@
+/* partie css exo 5*/
+#navbar {
+    background-color:rgb(53, 53, 158);
+    box-sizing: border-box;
+    position: right;
+}
+nav ul li {
+    display: inline-block;
+    padding: 3%;
+}
+#navbar a{ 
+    font-size: 30px;
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#logo{position:relative;}
+.gameTable{
+    font-style: italic;
+  }
+article{
+    background-color: rgb(214, 164, 134);
+}
+image{ border-radius: 10% ;}
+
+
+
+footer{
+    background-color: rgb(53, 53, 158);
+
+}
+footer ul li a{
+    font-size: 20px;
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+/* partie css universite*/
+.navigation {
+    background-color: #4CAF50;
+    position: relative;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+   
+   /* change le visuel du bouton */
+   .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+   }
+   
+   /* Montre le contenu drop-content lorsque l'on passe la souris au dessus de dropdown */
+   .dropdown:hover .dropdown-content {
+    display: block;
+   }
+   
+   /* change la couleur du bouton dropdown lorsque l'on hover celui ci */
+   .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+   }
+   
+   /* Donne les ombres et le display de style du contenu de dropdown */
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   }
+   
+   /* change l'écriture des liens et les espace du block dropdown */
+   .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   }
+   
+   /* Change la couleur de fond des liens contenus dans dropdown lorsqu'ils sont survolés */
+   .dropdown-content a:hover {
+    background-color: rgb(42, 191, 89);
+   }
