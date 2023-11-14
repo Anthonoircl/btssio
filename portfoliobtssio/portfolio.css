@@ -1,0 +1,21 @@
+   .nav-tabs {
+    position: fixed;
+    color: #000000;
+    font-size: 15px;
+    border: 10%;
+    cursor: pointer;
+    display: inline-block;
+}
+body{
+    
+}
+ol  li {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+   .btn-con {
+    display: flex;
+    align-self: flex-start;
+}
+header img {
+    height: auto;
+    width: auto;
+}
