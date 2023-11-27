@@ -15,7 +15,3 @@ ol  li {
     display: flex;
     align-self: flex-start;
 }
-header img {
-    height: auto;
-    width: auto;
-}
