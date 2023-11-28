@@ -1,4 +1,4 @@
-   .nav-tabs {
+  /* .nav-tabs {
     z-index: 1;
     position: fixed;
     color: #000000;
@@ -6,7 +6,7 @@
     border: 10%;
     cursor: pointer;
     display: inline-block;
-}
+}*/
     ol  li {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
