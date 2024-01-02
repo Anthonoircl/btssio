@@ -130,7 +130,7 @@
     border-radius: 50%;
   }
   
-  input: + .slider {
+  input + .slider {
     background-color: #2196F3;
   }
   
