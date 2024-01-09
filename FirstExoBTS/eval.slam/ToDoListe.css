@@ -1,0 +1,20 @@
+#container {
+	margin: 80px auto;
+	overflow: hidden;
+	width: 800px;
+}
+
+.column {
+	float: left;
+	width: 100px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+body {
+    background-color:  #86A8E7;
+}
