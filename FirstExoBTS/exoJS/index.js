@@ -41,7 +41,7 @@ function changeStyle(){
 changeStyle()
 
  mainButton.addEventListener('click', () => {
-   alert('Oh, you clicked me!')
+   alert('Bounton cliqué!')
  })
 var body = document.getElementsByTagName('body')[0]
 var div = document.createElement("div");
