@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="monDiv">
+        <p>this shit sucks</p>
+    </div>
+    <a href="" id="mainButton" onclick="displayText()"><span>Button</span></a>
+    <form id='LoginForm'  method="get" enctype="text/plain">
+        <input name="email" id="email" placeholder="Votre Email" >
+        <p id="errorEmail" style="display:none"></p>
+        <p id="errorEmail1" style="display:none">erreur dans l'ecriture de votre email</p>
+        <br>
+        <input name="password" id="password" placeholder="Votre Password" min="6" max="14">
+        <p id="errorPassword" style="display:none"></p>
+        <br>
+        <input type="submit" id='LoginSubmit' value="Envoyer">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
